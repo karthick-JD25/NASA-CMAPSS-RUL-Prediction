@@ -123,14 +123,23 @@ Among the tested models, Extra Trees provided the strongest final performance on
 
 ## 📊 Project Visualizations
 
-The project generates visualizations covering:
+### 1. Engine Lifetime Distribution
+![Engine Lifetime Distribution](outputs/figures/Figure_1.png)
 
-- Engine lifetime distribution
-- Training RUL distribution
-- Feature importance
-- Actual vs predicted RUL
-- Prediction error distribution
-- Individual engine degradation
+### 2. Training RUL Distribution
+![Training RUL Distribution](outputs/figures/Figure_2.png)
+
+### 3. Feature Importance
+![Feature Importance](outputs/figures/Figure_3.png)
+
+### 4. Actual vs Predicted RUL
+![Actual vs Predicted RUL](outputs/figures/Figure_4.png)
+
+### 5. Model Performance Comparison
+![Model Performance Comparison](outputs/figures/Figure_5.png)
+
+### 6. Engine RUL Degradation
+![Engine RUL Degradation](outputs/figures/Figure_6.png)
 
 ---
 
