@@ -84,21 +84,21 @@ The models were evaluated using:
 - R²
 
 ---
-
-## 🏆 Final Model
-
-The best-performing model was:
-
-### Extra Trees Regressor
+### 📌 Final Takeaways
 
 | Metric | Result |
 |---|---:|
+| **Best Model** | Extra Trees Regressor |
 | **MAE** | **15.72 cycles** |
 | **RMSE** | **22.90 cycles** |
-| **R²** | **0.696** |
+| **R² Score** | **0.696** |
+| **Test Engines** | **100** |
 
-An MAE of **15.72 cycles** means that the model's predictions were, on average, about 16 operating cycles away from the actual RUL.
+The final model predicts Remaining Useful Life with an average error of approximately **16 operating cycles** on the unseen FD001 test engines.
 
+### 💡 What I Learned
+
+This project showed me that a good machine learning solution is not only about selecting an algorithm. The most important parts were understanding the raw sensor data, creating a meaningful RUL target, engineering degradation-related features, validating at the engine level, and interpreting the final predictions.
 ---
 
 ## 📈 Key Findings
